@@ -13,4 +13,6 @@ event.then((name) =>{
 console.log(name) 
 }).catch((err) => {
     console.log(err)
+}).finally(() => {
+    console.log("PROMISE  FINISHED");
 })
