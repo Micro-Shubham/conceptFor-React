@@ -1,5 +1,5 @@
 const event = new Promise((resolve, reject) => {
-    var name = "Jack"
+    var name = "Pedro"
     if(name == "Pedro")  {
         resolve(name)
     } else {
