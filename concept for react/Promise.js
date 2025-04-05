@@ -1,8 +1,14 @@
 const event = new Promise((resolve, reject) => {
-    var name = "Pedro"
+    var name = "Jack"
     if(name == "Pedro")  {
-        resolve()
+        resolve(name)
     } else {
-        reject()
+        reject("Name was not Pedro, name was:"+name)
     }
+})
+// then is for resolve and catch is for reject
+event.then((name) =>{
+console.log(name) 
+}).catch((err) => {
+    console.log(err)
 })
