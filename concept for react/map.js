@@ -3,3 +3,7 @@ let name = ["Pedro","Jack", "Mick"]
 name.map((names) => {
     return name + "1";
 })
+// how to use in react
+name.map((names) => {
+    return <h1>{names}</h1>
+})
